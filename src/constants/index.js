@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    vue,
   } from "../assets";
   
   export const navLinks = [
@@ -112,25 +113,29 @@ import {
       name: "docker",
       icon: docker,
     },
+    {
+      name: "vue",
+      icon: vue,
+    }
   ];
   
   const experiences = [
     {
       title: "React.js Developer",
-      company_name: "Starbucks",
+      company_name: "Freelancing",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2020 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and maintained web applications using React.js.",
+        "Collaborated with cross-functional teams including designers, product managers, and developers.",
+        "Implemented responsive design to ensure optimal user experience on different devices.",
+        "Participated in code reviews, providing valuable feedback to enhance code quality and maintain best practices.",
       ],
     },
     {
       title: "React Native Developer",
-      company_name: "Tesla",
+      company_name: "Ranchi Tech",
       icon: tesla,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
@@ -142,31 +147,31 @@ import {
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+title: "Vue.js Developer",
+company_name: "Meta",
+icon: vue,
+iconBg: "#4FC08D",
+date: "Jan 2020 - Present",
+points: [
+"Built and maintained web applications using Vue.js and related technologies.",
+"Collaborated with cross-functional teams to deliver high-quality products.",
+"Implemented responsive design principles.",
+"Ensured cross-browser compatibility for seamless user experience.",
+],
+},
     {
-      title: "Full stack Developer",
+      title: "Figma Designer",
       company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      icon: figma,
+      iconBg: "#F24E1E",
+      date: "Jan 2020 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created visually appealing and user-friendly designs for web applications using Figma.",
+      "Collaborated with developers, product managers, and other designers.",
+      "Implemented responsive design principles for optimal display on different devices.",
+      "Ensured design consistency by establishing and maintaining design systems and style guides.",
       ],
-    },
+      }      
   ];
   
   const testimonials = [

@@ -23,7 +23,6 @@ import {
   jobit,
   tripguide,
   threejs,
-  vue,
 } from "../assets";
 
 export const navLinks = [
@@ -39,10 +38,6 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-  {
-    id: "blogs",
-    title: "Blogs",
-  },
 ];
 
 const services = [
@@ -51,7 +46,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Graphics Designer",
+    title: "React Native Developer",
     icon: mobile,
   },
   {
@@ -117,29 +112,25 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
-  {
-    name: "vue",
-    icon: vue,
-  },
 ];
 
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Freelancing",
+    company_name: "Starbucks",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - Present",
+    date: "March 2020 - April 2021",
     points: [
-      "Developed and maintained web applications using React.js.",
-      "Collaborated with cross-functional teams including designers, product managers, and developers.",
-      "Implemented responsive design to ensure optimal user experience on different devices.",
-      "Participated in code reviews, providing valuable feedback to enhance code quality and maintain best practices.",
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
     title: "React Native Developer",
-    company_name: "Ranchi Tech",
+    company_name: "Tesla",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
@@ -151,29 +142,29 @@ const experiences = [
     ],
   },
   {
-    title: "Vue.js Developer",
-    company_name: "Meta",
-    icon: vue,
-    iconBg: "#4FC08D",
-    date: "Jan 2020 - Present",
+    title: "Web Developer",
+    company_name: "Shopify",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "Jan 2022 - Jan 2023",
     points: [
-      "Built and maintained web applications using Vue.js and related technologies.",
-      "Collaborated with cross-functional teams to deliver high-quality products.",
-      "Implemented responsive design principles.",
-      "Ensured cross-browser compatibility for seamless user experience.",
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Figma Designer",
+    title: "Full stack Developer",
     company_name: "Meta",
-    icon: figma,
-    iconBg: "#F24E1E",
-    date: "Jan 2020 - Present",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "Jan 2023 - Present",
     points: [
-      "Created visually appealing and user-friendly designs for web applications using Figma.",
-      "Collaborated with developers, product managers, and other designers.",
-      "Implemented responsive design principles for optimal display on different devices.",
-      "Ensured design consistency by establishing and maintaining design systems and style guides.",
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];
@@ -226,7 +217,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/",
-    demo_link: "http://www.demo.com",
+    demo_link: "http://www.demo.com" ,
   },
   {
     name: "Job IT",
@@ -248,7 +239,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/",
-    demo_link: "http://www.demo.com",
+    demo_link: "http://www.demo.com" ,
   },
   {
     name: "Trip Guide",
@@ -270,7 +261,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
-    demo_link: "http://www.demo.com",
+    demo_link: "http://www.demo.com" ,
   },
 ];
 

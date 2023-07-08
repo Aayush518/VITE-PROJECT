@@ -23,6 +23,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    wordpress,
+    reactnative,
+    graphicdesigning,
+
   } from "../assets";
   
   export const navLinks = [
@@ -112,13 +116,17 @@ import {
       name: "docker",
       icon: docker,
     },
+    {
+      name: "wordpress",
+      icon: wordpress,
+    }
   ];
   
   const experiences = [
     {
       title: "React.js Developer",
       company_name: "Starbucks",
-      icon: starbucks,
+      icon: reactjs,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
@@ -131,43 +139,58 @@ import {
     {
       title: "React Native Developer",
       company_name: "Tesla",
-      icon: tesla,
+      icon: reactnative,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining mobile applications using React Native and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Implementing responsive design and ensuring cross-platform compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
       title: "Web Developer",
       company_name: "Shopify",
-      icon: shopify,
+      icon: web,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using Vue.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Graphic Designer",
+      company_name: "Figma",
+      icon: figma,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Creating visually appealing designs using Figma, a collaborative design tool.",
+        "Collaborating with clients or internal stakeholders to understand design requirements.",
+        "Applying design principles, such as color theory, typography, and composition, to create aesthetically pleasing designs.",
+        "Iterating on designs based on feedback and incorporating revisions.",
+      ],
+    },
+    {
+      title: "WordPress Developer",
+      company_name: "WordPress Inc.",
+      icon: wordpress,
+      iconBg: "#383E56",
+      date: "Jan 2022 - Present",
+      points: [
+        "Developing and maintaining websites using WordPress and related technologies.",
+        "Collaborating with clients or internal stakeholders to understand website requirements.",
+        "Customizing WordPress themes and plugins to meet specific needs.",
+        "Creating and editing website content using the WordPress content management system.",
+        "Providing ongoing support and troubleshooting for WordPress websites.",
       ],
     },
   ];
+  
   
   const testimonials = [
     {

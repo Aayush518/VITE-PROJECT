@@ -42,6 +42,11 @@ import {
       id: "contact",
       title: "Contact",
     },
+    {
+      id: "Blogs",
+      title: "Blogs",
+      href:"aayushwrites.live",
+    }
   ];
   
   const services = [
@@ -284,5 +289,7 @@ import {
       demo_link: "http://www.demo.com" ,
     },
   ];
+  
+
   
   export { services, technologies, experiences, testimonials, projects };

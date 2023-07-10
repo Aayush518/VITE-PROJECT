@@ -45,7 +45,9 @@ import {
     {
       id: "Blogs",
       title: "Blogs",
-      href:"aayushwrites.live",
+      handleClick: () => {
+        window.location.href = "https://aayushwrites.live";
+      }
     }
   ];
   
